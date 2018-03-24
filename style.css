@@ -1,5 +1,5 @@
 #topbar {
-	width: 1000px;
+	width: 1050px;
 	margin: 0 auto;
 	height: 40px;
 }
@@ -36,9 +36,41 @@ body {
 	font-size: 90%;
 	position: relative;
 	top: 12px;
-	margin-right: 90px;
+	padding-right: 90px;
 }
 
 #wigglyline {
+	float: left;
 	height: 40px;
+}
+
+#bell-div {
+	float: left;
+}
+
+#bell {
+	height: 20px;
+	margin: 10px 10px;
+}
+
+.topbar-menu {
+	font-weight: bold;
+	font-size: 90%;
+	padding: 13px 15px 0 15px;
+	height: 27px;
+}
+
+#search-box {
+	background: #e4e4e4;
+	border: none;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 5px;
+	margin: 8px 0 5px 5px;
+	float: left;
+}
+
+#magnifying-glass {
+	height: 26px;
+	margin-top: 8px;
 }
