@@ -1,13 +1,13 @@
 #topbar {
 	width: 1000px;
 	margin: 0 auto;
-	background-color: red;
 	height: 40px;
 }
 
 body {
 	margin: 0;
 	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 #logo {
@@ -15,4 +15,30 @@ body {
 	width: 85px;
 	height: 25px;
 	float: left;
+	margin-right: 10px;
+}
+
+.topbar-section {
+	float: left;
+	border-left: 1px #cccccc solid;
+	height: 100%;
+}
+
+#signin-image {
+	width: 20px;
+	margin: 11px 15px;
+	float: left;
+	filter: invert(100%);
+}
+
+#signin-text {
+	font-weight: bold;
+	font-size: 90%;
+	position: relative;
+	top: 12px;
+	margin-right: 90px;
+}
+
+#wigglyline {
+	height: 40px;
 }
